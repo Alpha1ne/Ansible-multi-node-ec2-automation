@@ -1,0 +1,6 @@
+---
+- name: Configure Ubuntu Web Servers via Roles
+  hosts: webservers
+  become: yes
+  roles:
+    - webserver
